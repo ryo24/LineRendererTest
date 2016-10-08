@@ -22,8 +22,9 @@ public class LineGenerater : MonoBehaviour {
 			startPressPosition = Camera.main.ScreenToWorldPoint(tempPosition);
 			Instantiate(lineObject,startPressPosition,Quaternion.identity);
 
-			Debug.Log(startPressPosition);
+//			Debug.Log(startPressPosition);
 
+			//今は使っていない変数
 			isPressed = true;
 		}
 
